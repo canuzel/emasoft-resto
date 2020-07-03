@@ -5,6 +5,10 @@ form#loginForm{
 .box-login-panel{
   background-color: blueviolet;
 }
+input.input-pass::placeholder{
+  font-weight: bolder;
+  color:white;
+}
 input.input-pass{
   width: 100%;
   background: inherit;
