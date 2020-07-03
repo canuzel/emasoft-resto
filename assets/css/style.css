@@ -1,0 +1,29 @@
+form#loginForm{
+  margin:200px auto;
+}
+
+.box-login-panel{
+  background-color: blueviolet;
+}
+input.input-pass{
+  width: 100%;
+  background: inherit;
+  border:none;
+  color:white;
+  text-align: center;
+  outline: inherit;
+  padding: 10px 0px;
+}
+.box-number-button button{
+  width:100%;
+  padding:10px 30px;
+  border:none;
+}
+.numeritic button{
+  background-color: brown;
+  color:white;
+}
+.setter button{
+  background-color: darkblue;
+  color:white;
+}
