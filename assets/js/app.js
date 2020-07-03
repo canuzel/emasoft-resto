@@ -13,3 +13,25 @@ let login = {
     login.input.attr("type",(login.input.attr("type")=="password"?"text":"password"))
   }
 }
+
+let sell = {
+  setButtonMenu:(target,obj,callback)=>{
+    target.empty()
+    obj.forEach(item => {
+      target.append(
+        $("<div>").addClass("col col-4 p-0").append(
+          $("<button>").append(
+            $("<span>").addClass("text-uppercase").html(item.name+"<br>"),
+            $("<span>").html(item.price)
+          )
+        )
+      )
+    })
+  }
+}
+
+
+sell.setButtonMenu($("#menus div.row"),[
+  { name:"1LT COLA", price:"8,00"},
+  { name:"Ayran açık", price:"4,50"},
+])

@@ -1,3 +1,4 @@
+/* Login */
 form#loginForm{
   margin:200px auto;
 }
@@ -30,4 +31,30 @@ input.input-pass{
 .setter button{
   background-color: darkblue;
   color:white;
+}
+/* Login */
+
+/* Sell */
+#category{
+  background-color: khaki;
+}
+.menu-button{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding:30px 0px;
+}
+
+#menus{
+  overflow: auto;
+  height:440px;
+  /* border:solid 1px red; */
+}
+#menus button{
+  width:100%;
+  border:none;
+  /* outline: inherit; */
+}
+#menus button:hover{
+  background-color: khaki;
 }
