@@ -1,4 +1,8 @@
 /* Login */
+button,input,div{
+  outline: none;
+  overflow: hidden;
+}
 form#loginForm{
   margin:200px auto;
 }
@@ -21,7 +25,7 @@ input.input-pass{
 }
 .box-number-button button{
   width:100%;
-  padding:10px 30px;
+  padding:10px 10px;
   border:none;
 }
 .numeritic button{
@@ -42,7 +46,7 @@ input.input-pass{
   display: block;
   overflow: hidden;
   width: 100%;
-  padding:30px 0px;
+  padding:80px 0px;
 }
 
 #menus{
@@ -57,4 +61,26 @@ input.input-pass{
 }
 #menus button:hover{
   background-color: khaki;
+}
+
+#static-menu{
+
+}
+#static-menu button{
+  width:100%;
+  display: block;
+  padding:30px 10px;
+  border:none;
+  text-align: center;
+}
+#tabs button{
+  width:100%;
+  display: block;
+  padding: 10px 0px;
+  border:none;
+}
+
+#bid-table tfoot span{
+  font-size:36px;
+  font-weight: bolder;
 }
