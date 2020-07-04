@@ -42,7 +42,7 @@ input.input-pass{
 #category{
   background-color: khaki;
 }
-.menu-button{
+#category button{
   display: block;
   overflow: hidden;
   width: 100%;
@@ -63,9 +63,6 @@ input.input-pass{
   background-color: khaki;
 }
 
-#static-menu{
-
-}
 #static-menu button{
   width:100%;
   display: block;
@@ -79,8 +76,42 @@ input.input-pass{
   padding: 10px 0px;
   border:none;
 }
-
-#bid-table tfoot span{
+#price-total{
   font-size:36px;
   font-weight: bolder;
 }
+.wall{
+  overflow:auto;
+  max-height: 500px;
+  width: 100%;
+}
+
+
+/* Buttons Padding */
+@media only screen and (max-width: 1500px) {
+  #static-menu button{
+    padding:18px 10px;
+  }
+  #category button{
+    padding:58px 0px;
+  } 
+}
+
+@media only screen and (max-width: 1300px) {
+  .wall{
+    max-height: 250px;
+  }
+  button,table{
+    font-size: 8px;
+  }
+  #static-menu button{
+    padding:3px 5px;
+  }
+  #category button{
+    padding:31px 0px;
+  } 
+  #static-menu button{
+    padding: 13px 0px;
+  }
+}
+/* Buttons Padding */
