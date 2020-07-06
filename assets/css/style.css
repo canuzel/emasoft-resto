@@ -42,19 +42,78 @@ input.input-pass{
   display: block;
   overflow: hidden;
   width: 100%;
-  padding:30px 0px;
+  padding:33px 0px;
+  
+  background-color:blue;
+  border: solid 1px white;
+  color: white;
+  
+  
+}
+.menu-button2{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding:0px ;
+  
+  background-color:blue;
+  border: solid 1px white;
+  color: white;
+  
+  
+}
+.menu-button-black{
+  background-color: black;
+  color: white;
+  
+}
+.menu-button-red{
+
+background-color: red;
+
 }
 
 #menus{
   overflow: auto;
   height:440px;
+  
   /* border:solid 1px red; */
 }
 #menus button{
   width:100%;
   border:none;
   /* outline: inherit; */
+  
 }
-#menus button:hover{
+#menus button:hover {
   background-color: khaki;
+}
+.ınput{
+
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  border: 0px;
+  margin: 0%;
+ padding: 0px;
+
+
+}
+.menum{
+
+padding: 0%;
+margin: 0%;
+background-color: blue;
+border:solid 1px white;
+color: white;
+
+}
+.menum-grey{
+  background-color:black;
+}
+.menum-blue{
+  background-color: royalblue;
+}
+#menum :hover{
+background-color: cornsilk;
 }
